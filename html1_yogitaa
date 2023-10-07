@@ -1,0 +1,27 @@
+<div class="ocean" id="mainContent">
+  <video autoplay loop muted playsinline class="ocean-video">
+    <source src="https://github.com/YOGITAA96/videos_hackathon/raw/main/pexels_videos_1093662%20(1080p).mp4" type="video/mp4">
+  </video>
+  <button class="dive-button"></button>
+  <h1 class="welcome-text">Welcome to the Phytoplankton World</h1>
+
+  <button class="phytoplankton dinoflagellates">
+    <img src="https://github.com/YOGITAA96/videos_hackathon/raw/main/7PQU.gif" alt="Dinoflagellates GIF">
+    <p class="phyto-name">Dinoflagellates</p>
+  </button>
+
+  <button class="phytoplankton diatom" onclick="showDiatomVideo();">
+    <img src="https://github.com/YOGITAA96/videos_hackathon/raw/main/916q.gif" alt="Diatom GIF">
+    <p class="phyto-name">Diatom</p>
+  </button>
+
+  <button class="phytoplankton green-algae">
+    <img src="https://github.com/YOGITAA96/videos_hackathon/raw/main/7qkf.gif" alt="Green Algae GIF">
+    <p class="phyto-name">Green Algae</p>
+  </button>
+</div>
+
+<video controls autoplay width="100%" height="80%">
+  <source src="YOUR_DIRECT_VIDEO_LINK_HERE.mp4" type="video/mp4">
+
+</video>
