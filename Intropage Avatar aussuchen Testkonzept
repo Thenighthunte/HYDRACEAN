@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+        <title>Background Video Example</title>
+        <style>
+             /* Set the video container to cover the entire viewport */
+             #video-container {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                z-index: -1;
+            }
+            /* Set the video to fill the container */
+            #video-container video {
+                min-width: 100%;
+                min-height: 100%;
+                width: auto;
+                height: auto;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        </style>
+        <div id="video-container">
+            <video autoplay muted loop>
+                <source src="IntroHydracean.mp4" type="video/mp4">
+            </video>
+        </div>
+        <h1></div>
+            <div id="content"> 
+                <h style="font-size: 24px; font-family: cursive; color: rgb(36, 148, 156);"> Welcome to the World of Phytoplankton</h>
+                <p style="font-size: 16px; color: rgb(32, 18, 83)"> Enjoy and immerse in nature's wonderful gifts </p>
+                <style>
+                    body {
+                                                font-family: Calibri, sans-serif;
+                    }
+                </style>
+            </div>
+            </head>
+            <style>
+                body {
+                    background-color: transparent;
+                }
+            </style>
+            <body>
+            <img src="Whale.gif" alt="Whale" width="100" height="50">
+            <button id="Doplhin">Doplhin</button>
+            <button id="Giant Squid">Giant Squid</button>
+            <button id="Jelly Fish">Jelly Fish</button>
+            <button id="Clown Fish">Clown Fish</button>
+            <button id="Shark">Shark</button>
+            <button id="Sea Turtle">Sea Turtle</button>
+            <button id="Sea Eagle">Sea Eagle</button>
+        </body></h1>
+    </body>
+</html>
